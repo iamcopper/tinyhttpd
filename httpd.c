@@ -471,7 +471,7 @@ void unimplemented(int client)
 
 /**********************************************************************/
 
-int main(void)
+int main(int argc, char *argv[])
 {
 	int server_sock = -1;
 	u_short port = 0;
